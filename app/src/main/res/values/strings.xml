@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="messsage_login_successful">Sign up Successfully</string>
+
+    <style name="EditText1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <dimen name="margin">5dp</dimen>
+</resources>

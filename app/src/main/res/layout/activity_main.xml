@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        style="@style/EditText1"
+        android:inputType="text"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/EditText1"
+        android:inputType="textPassword"
+        android:hint="Password" />
+    <EditText
+        android:id="@+id/etPhone"
+        style="@style/EditText1"
+        android:inputType="number"
+        android:hint="Phone"/>
+    <EditText
+        android:id="@+id/etMail"
+        style="@style/EditText1"
+        android:inputType="textEmailAddress"
+        android:hint="Mail"/>
+    <EditText
+        android:id="@+id/etAddress"
+        style="@style/EditText1"
+        android:inputType="text"
+        android:hint="Address"/>
+    <EditText
+        android:id="@+id/etCountry"
+        style="@style/EditText1"
+        android:inputType="text"
+        android:hint="Country"/>
+    <EditText
+        android:id="@+id/etDob"
+        style="@style/EditText1"
+        android:inputType="date"
+        android:focusable="false"
+        android:hint="Date of Birth"/>
+    <TextView
+        style="@style/EditText1"
+        android:text="Gender :"
+        android:id="@+id/tvGender"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgGender"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbMale"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="15dp"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFemale"
+            android:textSize="15dp"
+            android:text="Female"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/EditText1"
+        android:text="Hobby :"
+        android:id="@+id/tvHobby"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chPlaying"
+        android:text="Playing"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chReading"
+        android:text="Reading"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chWriting"
+        android:text="Writing"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        style="@style/EditText1"
+        android:layout_marginTop="10dp"
+        android:text="Sign in"/>
+
+</LinearLayout>
